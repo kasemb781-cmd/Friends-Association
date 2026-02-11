@@ -1,0 +1,10 @@
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+  const supabaseUrl = "https://bgwzbvsdnwcxxwumajmv.supabase.co";
+  const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJnd3pidnNkbndjeHh3dW1ham12Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA3Nzk0NjEsImV4cCI6MjA4NjM1NTQ2MX0.vRolcotzWkeWY8mcjzpSihAkY325pRUg0TkdCU-wTkU";
+
+  const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+
+  console.log("Supabase Connected");
+</script>
